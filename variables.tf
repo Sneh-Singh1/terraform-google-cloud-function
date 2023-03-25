@@ -77,6 +77,10 @@ variable "max_instances" {
   default     = 1
 
 }
+variable "region"{
+  description ="region where function is created"
+  type = string
+  default = "asia-south1"
 
 # variable "url" {
 #   description = "The URL pointing to the hosted repository where the function is defined."
