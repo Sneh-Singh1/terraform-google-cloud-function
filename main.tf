@@ -17,6 +17,7 @@ resource "google_cloudfunctions_function" "cloudfunction" {
   # source_repository {
   #   url = var.url
   # }
+  region =var.region
 }
 
 # resource "google_cloudfunctions_function_iam_binding" "iam_binding" {
